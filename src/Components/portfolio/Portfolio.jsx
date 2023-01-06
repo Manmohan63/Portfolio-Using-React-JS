@@ -2,8 +2,8 @@ import './Portfolio.css'
 
 const Portfolio = () => {
     return ( 
-        <div className="Portfolio">
-        
+        <div className="portfolio" id="portfolio">
+
         </div>
      );
 }

@@ -2,7 +2,7 @@ import './Intro.css'
 
 const Intro = () => {
     return ( 
-        <div className="intro">
+        <div className="intro" id='intro'>
         
         </div>
      );

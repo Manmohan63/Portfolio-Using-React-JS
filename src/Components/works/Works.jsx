@@ -2,7 +2,7 @@ import './Works.css'
 
 const Works = () => {
     return (
-        <div className="Works">
+        <div className="works" id='works'>
 
         </div>
     );
