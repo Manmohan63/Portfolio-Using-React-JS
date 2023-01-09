@@ -1,13 +1,22 @@
 import './Navbar.scss'
 import logo from './mm.png'
 
-const Navbar = () => {
+const Navbar = ({ menuopen, setmenuopen }) => {
     return (
         <>
-            <div className="navbar" id="navbar">
-                <div className="image">
-                    <img src={logo} alt="mylogo" />
-                    Manmohan Mandhan
+            <div className={"navbar " + (menuopen && "active") } id="navbar">
+                <div className="hehe">
+                    <div className="blank">
+                    </div>
+                    <div className="image">
+                        <img src={logo} alt="mylogo" />
+                        Manmohan Mandhan
+                    </div>
+                    <div className="hamburger" onClick={() => setmenuopen(!menuopen)}>
+                        <span className="line1"></span>
+                        <span className="line2"></span>
+                        <span className="line3"></span>
+                    </div>
                 </div>
                 <div className="content">
                     <a href="#intro" className="home">Home</a>
@@ -25,5 +34,4 @@ const Navbar = () => {
         </>
     )
 }
-
 export default Navbar;

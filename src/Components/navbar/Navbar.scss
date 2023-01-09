@@ -1,7 +1,12 @@
+$myblue : rgb(7,12,31);
+$lightblue : #3562f9;
+
 .navbar{
+    margin: 0 !important;
+    padding: 0 !important;
     z-index: 1;
     position: sticky;
-    background: rgb(7,12,31);
+    background: $myblue;
     color: white;
     display: flex;
     align-items: center;
@@ -36,18 +41,126 @@
 
     .content{
         flex-grow: 0.5;
+        flex-shrink: 0;
     }
 
     .icons{
         margin: 10px;
         margin-right: 50px;
-        width: 160px;
+        flex-grow: 0.15;
     }
 
     a{
         &:hover{
             transform: scale(1.15);
             transition: all 0.5s;
+            background-color: $lightblue;
+            padding: 5px;
+            border-radius: 0.7rem;
+        }
+    }
+    .hehe{
+        display: flex;
+            .hamburger{
+                display: none;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    flex-grow: 0.5;
+                    span{
+                        transition: all 0.5s ease;
+                        height: 5px;
+                        width: 50px;
+                        background-color: white;
+                    }
+                }
+            }
+    }
+
+@media screen and (max-width: 950px) {
+    .navbar{
+        flex-direction: column;
+        justify-content: flex-start;
+        height: 10vh;
+        margin: 10px;
+        overflow-x: hidden;
+        transition: 0.5s ease-in-out;
+
+
+        .hehe{
+            margin: 30px 0px;
+        }
+        
+        img{
+            margin: 0px;
+            margin-right: 5px;
+            height: 50px;
+            width: 50px;
+        }   
+
+
+        .content{
+            flex-direction: column;
+            justify-content: space-between;
+            flex-grow: 0.5;
+            display: none;
+        }
+        .icons{
+            margin: 0px 40px;
+            justify-content: space-around;
+            flex-grow: 0.15;
+            width: 200px;
+            display: none;
+        }
+        .hehe{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            
+            .blank{
+                width: 23%;
+            }
+            .hamburger{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                height: 3rem;
+                cursor: pointer;
+
+                span{
+                    height: 12%;
+                    width: 30%;
+                    margin-left: 33%;
+                    background-color: white;
+                }
+            }
+        }
+        &.active{
+            height: 40vh;
+            .hamburger{
+                span{
+                    &:first-child{
+                        transform-origin: left;
+                        transform: rotate(45deg);
+                    }
+                    &:nth-child(2){
+                        opacity: 0;
+                    }
+                    &:last-child{
+                        transform-origin: left;
+                        transform: rotate(-45deg);
+                    }
+                }
+            }
+
+            .icons, .content{
+                display: flex !important;
+            }
+
+            .icons{
+                margin-top: 5vh;
+            }
         }
     }
 }
