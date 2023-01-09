@@ -1,0 +1,53 @@
+.navbar{
+    z-index: 1;
+    position: sticky;
+    background: rgb(7,12,31);
+    color: white;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: medium;
+    font-family: 'Poppins', sans-serif;
+    justify-content: space-between;
+
+    .image:hover{
+            transform: scale(1.1);
+            transition: all 0.5s;
+        }
+    
+    img{
+        margin: 10px;
+        margin-left: 50px;
+        height: 50px;
+        width: 50px;
+    }
+
+    .image, .icons, .content{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    ion-icon{
+        height: 30px;
+        width: 30px;
+    }
+
+    .content{
+        flex-grow: 0.5;
+    }
+
+    .icons{
+        margin: 10px;
+        margin-right: 50px;
+        width: 160px;
+    }
+
+    a{
+        &:hover{
+            transform: scale(1.15);
+            transition: all 0.5s;
+        }
+    }
+}

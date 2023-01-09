@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(7,12,31);
+    color: white;
+
+    a{
+        text-decoration: none;
+         color: white;
+    }
+}
+*{
+    font-family: 'Roboto', sans-serif;
+    scrollbar-width: none;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+*::-webkit-scrollbar {
+    display: none;
+}
+
+:root {
+    --primary-color: #1f2ac6;
+    --secondary-color: #1fc667;
+    --tertiary-color: #c61f57;
+    --quaternary-color: #c0c61f;
+}
