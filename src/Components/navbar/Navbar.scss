@@ -3,23 +3,22 @@
 .navbar{
     margin: 0 !important;
     padding: 0 !important;
-    z-index: 1;
-    position: sticky;
+    z-index: 2;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     background: $myblue;
     color: white;
-    display: flex;
     align-items: center;
     font-weight: 400;
     letter-spacing: 1px;
     font-size: medium;
     font-family: 'Poppins', sans-serif;
     justify-content: space-between;
+    align-self: flex-start;
 
-    .image:hover{
-            transform: scale(1.1);
-            transition: all 0.5s;
-        }
-    
     img{
         margin: 10px;
         margin-left: 50px;
@@ -51,7 +50,7 @@
 
     a{
         &:hover{
-            transform: scale(1.15);
+            transform: scale(1.1);
             transition: all 0.5s;
             background-color: $lightblue;
             padding: 5px;
@@ -81,7 +80,6 @@
         justify-content: flex-start;
         height: 10vh;
         margin: 10px;
-        overflow-x: hidden;
         transition: 0.5s ease-in-out;
 
 

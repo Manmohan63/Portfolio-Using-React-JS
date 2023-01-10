@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import "./global.scss";
+
 body{
     margin: 0;
     padding: 0;
-    // background: rgb(7,12,31);
+    background: $myblue;
     color: white;
 
     a{
@@ -19,11 +21,4 @@ body{
 }
 *::-webkit-scrollbar {
     display: none;
-}
-
-:root {
-    --primary-color: #1f2ac6;
-    --secondary-color: #1fc667;
-    --tertiary-color: #c61f57;
-    --quaternary-color: #c0c61f;
 }

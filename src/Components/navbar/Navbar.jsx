@@ -19,11 +19,11 @@ const Navbar = ({ menuopen, setmenuopen }) => {
                     </div>
                 </div>
                 <div className="content">
-                    <a href="#intro" className="home">Home</a>
-                    <a href="#about" className="about">About</a>
-                    <a href="#skills" className="skills">Skills</a>
-                    <a href="#portfolio" className="portfolio">Portfolio</a>
-                    <a href="#contact" className="contact">Contact</a>
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#contact">Contact</a>
                 </div>
                 <div className="icons">
                     <a href="mailto:mandhanmanmohan63@gmail.com"><ion-icon name="mail"></ion-icon></a>
