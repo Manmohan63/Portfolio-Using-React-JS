@@ -16,8 +16,8 @@
         "Project2": {
             "name": "Project Durga",
             "images": {
-                "image2": "../../Assets/Durga/2.png",
                 "image1": "../../Assets/Durga/1.png",
+                "image2": "../../Assets/Durga/2.png",
                 "image3": "../../Assets/Durga/3.png",
                 "image4": "../../Assets/Durga/4.png",
                 "image5": "../../Assets/Durga/5.png"
@@ -25,6 +25,18 @@
             "desc": "Here comes the lioness of 21st century, who dream big and achieve bigger. Stay tuned to meet the wonder women of this century.",
             "repo":"https://github.com/Manmohan63/Project-Durga",
             "proj":"https://manmohan63.github.io/Project-Durga/"
+        },
+        "Project3": {
+            "name": "Project Travelog",
+            "images": {
+                "image1": "../../Assets/Travelog/1.png",
+                "image2": "../../Assets/Travelog/2.png",
+                "image3": "../../Assets/Travelog/3.png",
+                "image4": "../../Assets/Travelog/4.png"
+            },
+            "desc": "This is a platform where students from our college can share their travel experiences and adventures with the community. Whether you're planning a trip or just want to be inspired by others' journeys, this is the place to be.",
+            "repo":"https://github.com/Manmohan63/Design-a-thon",
+            "proj":"https://manmohan63.github.io/Design-a-thon/"
         }
     }
 }
