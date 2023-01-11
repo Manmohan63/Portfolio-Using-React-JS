@@ -12,7 +12,7 @@ const Background = () => {
         <div className="text-container">
           <s2>Discover</s2> <br />
           <s1>About Me</s1>
-          <p>My name is Manmohan Mandhan. I'm a Student at the National Institute of Technology, Rourkela. <br /> My hometown is Jamshedpur, Jharkhand. I'm very passionate and dedicated to my work. With a <br /> lot of projects and competitive programming, I've acquired the skills necessary to build a carrier in the Tech field.</p>
+          <p>My name is Manmohan Mandhan. I'm a Student at the National Institute of Technology, Rourkela. My hometown is Jamshedpur, Jharkhand. I'm very passionate and dedicated to my work. With a lot of projects and competitive programming, I've acquired the skills necessary to build a carrier in the Tech field.</p>
         </div>
         <div className="table">
           <div className="col1">
