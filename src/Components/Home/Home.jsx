@@ -1,7 +1,7 @@
 import React from 'react'
 import './Home.scss'
-import img1 from "../../Assets/1.png"
-import Resume from "../../Assets/Resume_Manmohan.pdf"
+import img1 from "../../Assets/Home/1.png"
+import Resume from "../../Assets/Home/Resume_Manmohan.pdf"
 import TypewriterComponent from 'typewriter-effect'
 
 const home = () => {

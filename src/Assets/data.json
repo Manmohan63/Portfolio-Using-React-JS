@@ -1,0 +1,30 @@
+{
+    "Projects": {
+        "Project1": {
+            "name": "Project Annapurna",
+            "images": {
+                "image1": "../../Assets/Annapurna/1.png",
+                "image2": "../../Assets/Annapurna/2.png",
+                "image3": "../../Assets/Annapurna/3.png",
+                "image4": "../../Assets/Annapurna/4.png",
+                "image5": "../../Assets/Annapurna/5.png"
+            },
+            "desc": "With thousands of NGOs listed down, the user can simply filter out the most relevant ones to start a conversation. Following the outcome of the conversation, the NGO can reach the spot after the completion of the program to collect the food bulk to further distribute it amongst the needful.",
+            "repo":"https://github.com/Manmohan63/Annapurna",
+            "proj":"https://ishikapoddar.github.io/Annapurna/"
+        },
+        "Project2": {
+            "name": "Project Durga",
+            "images": {
+                "image2": "../../Assets/Durga/2.png",
+                "image1": "../../Assets/Durga/1.png",
+                "image3": "../../Assets/Durga/3.png",
+                "image4": "../../Assets/Durga/4.png",
+                "image5": "../../Assets/Durga/5.png"
+            },
+            "desc": "Here comes the lioness of 21st century, who dream big and achieve bigger. Stay tuned to meet the wonder women of this century.",
+            "repo":"https://github.com/Manmohan63/Project-Durga",
+            "proj":"https://manmohan63.github.io/Project-Durga/"
+        }
+    }
+}

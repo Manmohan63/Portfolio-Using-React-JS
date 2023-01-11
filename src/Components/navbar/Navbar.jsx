@@ -1,5 +1,5 @@
 import './Navbar.scss'
-import logo from '../../Assets/mm.png'
+import logo from '../../Assets/Navbar/mm.png'
 
 const Navbar = ({ menuopen, setmenuopen }) => {
     return (

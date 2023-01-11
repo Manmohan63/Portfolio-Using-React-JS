@@ -1,5 +1,5 @@
 import React from 'react'
-import img1 from "../../Assets/my.jpg"
+import img1 from "../../Assets/About/my.jpg"
 import './Background.scss'
 
 const Background = () => {
