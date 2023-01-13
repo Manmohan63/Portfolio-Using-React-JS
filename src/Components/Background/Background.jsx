@@ -3,6 +3,13 @@ import img1 from "../../Assets/About/my.jpg"
 import './Background.scss'
 
 const Background = () => {
+  function calculate_age(dob) {
+    var diff_ms = Date.now() - dob.getTime();
+    var age_dt = new Date(diff_ms);
+
+    return Math.abs(age_dt.getUTCFullYear() - 1970);
+  }
+
   return (
     <div className="background" id='about'>
       <div className="left">
@@ -17,7 +24,7 @@ const Background = () => {
         <div className="table">
           <div className="col1">
             <div className="row1"><h3>Name:</h3> Manmohan Mandhan</div>
-            <div className="row2"><h3>Age:</h3> 19</div>
+            <div className="row2"><h3>Age:</h3> {calculate_age(new Date(2004, 1, 10))}</div>
             <div className="row3"><h3>Department:</h3> Computer Science & Engineering</div>
             <div className="row4"><h3>College:</h3> NIT Rourkela</div>
           </div>

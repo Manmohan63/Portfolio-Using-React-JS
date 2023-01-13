@@ -1,0 +1,82 @@
+@import '../../styles/global.scss';
+
+.contact{
+    .container{
+        display: flex;
+        .left{
+            height: 90vh;
+            width: 100vw;
+            font-weight: 600;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            span{
+                height: 17vw;
+                width: 34vw;
+                letter-spacing: 1px;
+                font-size: 65px;
+            }
+            
+        }
+        .right{
+            height: 90vh;
+            width: 100vw;
+            flex-grow: 0.5;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            span{
+                height: 7vw;
+                width: 24vw;
+                letter-spacing: 1px;
+                font-weight: 600;
+                font-size: 65px;
+            }
+            form{
+                height: 50%;
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                input{
+                    height: 50px;
+                    width: 100%;
+                    border-radius: 0.5rem;
+                    border: 1px solid $lightblue;
+                    font-size: 15px;
+                    display: flex;
+                    align-items: flex-end;
+                    justify-content: center;
+                    font-weight: 600;
+                    letter-spacing: 1px;
+
+                    &:focus {
+                        outline: none !important;
+                    }
+                    
+                    padding: 10px;
+                    -webkit-box-sizing: border-box; 
+                    -moz-box-sizing: border-box;    
+                    box-sizing: border-box;         
+
+                }
+
+                button{
+                    letter-spacing: 1px;
+                    padding: 20px;
+                    width: 150px;
+                    border-radius: 10px;
+                    transition: all 0.5s ease;
+                    font-size: 15px;
+
+                    &:hover{
+                        background: $lightblue;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
