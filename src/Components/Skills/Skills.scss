@@ -1,0 +1,33 @@
+@import "../../Styles/global.scss";
+
+.skills{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 80px;
+    span{
+        color: $lightblue;
+    }
+    .container{
+        display: flex;
+        justify-content: space-around;
+        align-items: space-around;
+        img{
+            width: 200px;
+            height: 130px;
+            padding: 0px;
+            border: solid 1px $lightblue;
+            margin: 14px 45px;
+            border-radius: 10%;
+            box-shadow: 0 0 8px 0 white;
+            transition: all 0.3s ease-in-out;
+
+            
+            &:hover{
+                box-shadow: 0 0 25px 0 blue;
+            }
+        }
+    }
+}

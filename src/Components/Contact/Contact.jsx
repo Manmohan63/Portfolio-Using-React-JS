@@ -11,13 +11,15 @@ const Contact = () => {
             everyone!</span>
         </div>
         <div className="right">
-          <span>Contact Me</span>
-          <form action="/">
-            <input type="text" name='name' placeholder='Your Name' required />
-            <input type="email" name='email' placeholder='Your Email' required />
-            <input type="text" name='msg' placeholder='Your Message' required />
-            <button type="submit">Submit</button>
-          </form>
+          <div className="container2">
+            <span>Contact Me</span>
+            <form action="/">
+              <input type="text" name='name' placeholder='Your Name' required />
+              <input type="email" name='email' placeholder='Your Email' required />
+              <input type="text" name='msg' placeholder='Your Message' required />
+              <button type="submit">Submit</button>
+            </form>
+          </div>
         </div>
       </div>
     </div>
