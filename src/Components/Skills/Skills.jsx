@@ -22,8 +22,8 @@ const Skills = () => {
             </div>
             <div> <span>Tools</span> I use</div>
             <div className="container">
-                <img src={vscode} alt="VS Code" />
-                <img src={sublimetext} alt="Sublime Text" />
+                <img src={vscode} alt="VS Code" title='VS Code' />
+                <img src={sublimetext} alt="Sublime Text" title='Sublime Text'/>
                 <img src={canva} alt="Canva" title='Canva' />
             </div>
             <div> <span>Platforms</span> I use</div>
