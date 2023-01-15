@@ -1,0 +1,62 @@
+@import "../../Styles/global.scss";
+
+.projects{
+    display: flex;
+    justify-content: space-around;
+
+    img{
+        height: 200px;
+        width: 400px;
+    }
+
+    .left, .right,.center{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 570px;
+        width: 400px;
+        border-radius: 10px;
+        border: 3px solid $lightblue;
+        box-shadow: 0 0 8px 0 white;
+        margin: 20px;
+        padding: 20px;
+        transition: all 0.3s ease-in-out;
+
+        &:hover{
+            box-shadow: 0 0 25px 0 blue;
+        }
+
+        button{
+            letter-spacing: 1px;
+            padding: 15px;
+            width: 150px;
+            border-radius: 10px;
+            transition: all 0.5s ease;
+            font-size: 15px;
+            background: $lightblue;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            ion-icon
+            {
+                margin-left: 2px;
+                display: none;
+                transition: all 5s ease;
+            }
+
+            &:hover{
+                background: #003cff;
+                border: 2px solid white;
+                color: white;
+
+                ion-icon
+                {
+                    display: inline-flex;
+                }
+            }
+        }
+    }
+}

@@ -24,7 +24,7 @@ const home = () => {
                 wrapperClassName: 'typewriter',
                 cursorClassName: 'cursorSize'
               }} />
-            <a href={Resume} download="Resume_Manmohan"><button>Download CV</button></a>
+            <a href={Resume} download="Resume_Manmohan"><button>Download CV <ion-icon name="arrow-forward-outline"></ion-icon></button></a>
           </div>
         </div>
       </div>

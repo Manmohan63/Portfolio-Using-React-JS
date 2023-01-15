@@ -3,7 +3,9 @@ import './Styles/index.scss';
 import Navbar from './Components/Navbar/Navbar.jsx';
 import Home from './Components/Home/Home.jsx';
 import Background from './Components/Background/Background.jsx';
-import Contact from './Components/Contact/Contact.jsx';
+import Projects from './Components/Projects/Projects.jsx';
+// import Contact from './Components/Contact/Contact.jsx';
+// <Contact />
 import { useState } from 'react';
 
 function App() {
@@ -14,7 +16,7 @@ function App() {
       <div className="sections">
         <Home />
         <Background />
-        <Contact />
+        <Projects />
       </div>
     </div>
   );
