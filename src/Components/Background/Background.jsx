@@ -1,5 +1,4 @@
 import React from 'react'
-import img1 from "../../Assets/About/my.jpg"
 import './Background.scss'
 
 const Background = () => {
@@ -13,7 +12,7 @@ const Background = () => {
   return (
     <div className="background" id='about'>
       <div className="left">
-        <img src={img1} alt="me" />
+        <img src="https://res.cloudinary.com/dk8ign4oc/image/upload/v1673810243/my_zrwaxc.jpg" alt="me" />
       </div>
       <div className="right">
         <div className="text-container">

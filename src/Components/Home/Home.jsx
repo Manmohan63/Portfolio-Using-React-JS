@@ -1,6 +1,5 @@
 import React from 'react'
 import './Home.scss'
-import img1 from "../../Assets/Home/1.png"
 import Resume from "../../Assets/Home/Resume_Manmohan.pdf"
 import TypewriterComponent from 'typewriter-effect'
 
@@ -9,7 +8,7 @@ const home = () => {
     <>
       <div className="home" id='home'>
         <div className="left">
-          <img className='img1' src={img1} alt="me" />
+          <img className='img1' src="https://res.cloudinary.com/dk8ign4oc/image/upload/v1673810263/1_yp9tzl.png" alt="me" />
         </div>
         <div className="right">
           <div className="wrapper">

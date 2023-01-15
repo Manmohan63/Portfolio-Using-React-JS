@@ -1,5 +1,4 @@
 import './Navbar.scss'
-import logo from '../../Assets/Navbar/mm.png'
 
 const Navbar = ({ menuopen, setmenuopen }) => {
     return (
@@ -9,7 +8,7 @@ const Navbar = ({ menuopen, setmenuopen }) => {
                     <div className="blank">
                     </div>
                     <div className="image">
-                        <img src={logo} alt="mylogo" />
+                        <img src="https://res.cloudinary.com/dk8ign4oc/image/upload/v1673810274/mm_pmymwo.png" alt="mylogo" />
                         Manmohan Mandhan
                     </div>
                     <div className="hamburger" onClick={() => setmenuopen(!menuopen)}>
