@@ -1,12 +1,5 @@
 import React from 'react'
 import './Skills.scss'
-import canva from '../../Assets/Skills/canva.png'
-import vscode from '../../Assets/Skills/vscode.png'
-import sublimetext from '../../Assets/Skills/sublime-text.png'
-import google from '../../Assets/Skills/google.png'
-import codeforces from '../../Assets/Skills/codeforces.png'
-import codechef from '../../Assets/Skills/codechef.png'
-import atcoder from '../../Assets/Skills/atcoder.png'
 
 const Skills = () => {
     return (

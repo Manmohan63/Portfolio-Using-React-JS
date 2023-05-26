@@ -1,6 +1,6 @@
 import React from 'react'
 import './Home.scss'
-import Resume from "../../Assets/Home/Resume_Manmohan.pdf"
+import Resume from "../../Assets/Home/121CS0185_Manmohan_Mandhan_1.pdf"
 import TypewriterComponent from 'typewriter-effect'
 
 const home = () => {

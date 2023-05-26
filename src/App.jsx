@@ -1,5 +1,5 @@
 import './Styles/App.scss';
-import './Styles/index.scss';
+import './Styles/index.css';
 import Navbar from './Components/Navbar/Navbar.jsx';
 import Home from './Components/Home/Home.jsx';
 import Background from './Components/Background/Background.jsx';
